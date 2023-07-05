@@ -1,0 +1,106 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    }
+    
+    body {
+        background-image: url(https://img.freepik.com/vector-gratis/conjunto-zapatos-garabatos_125540-642.jpg?size=626&ext=jpg&ga=GA1.1.299222946.1683416666&semt=sph);
+        background-position: center center;
+        
+        
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+    }
+    .imagen{
+        margin: 10px;
+        border-radius: 50%;
+        width: 200px;
+    }
+
+    
+    /* Estilos para la tienda */
+    #tienda {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .producto {
+        width: 30%;
+        border: 2px solid #111010;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+        box-shadow: -8px 10px 5px;
+    }
+    
+    .producto img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .carrito {
+        width: 30%;
+        border: 1px solid #333;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 5px 10px 5px;
+    }
+    
+    .carrito-item {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    
+    .carrito-total {
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    
+    button {
+        background-color: #4CAF50;    
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow:  5px 8px 5px black;
+    }
+    
+    button:hover {
+        opacity: 0.8;
+    }
+    .enviar{
+        background-color: rgb(9, 170, 9);
+        border-radius: 5px;
+    }
+    .enviar:hover{
+        background-color: aqua;
+        box-shadow: 5px 8px 5px;
+    }
+    /* Estilos responsivos */
+    @media (max-width: 768px) {
+        .producto {
+        width: 45%;
+        }
+    
+        .carrito {
+        width: 45%;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .producto {
+        width: 100%;
+        }
+    
+        .carrito {
+        width: 100%;
+        }
+    }
+    

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="20230526_000538_0003.png">
+    <title>TIENDA ZAPATOS KRI</title>
+</head>
+
+    
+<style>
+/* Estilos CSS para la tienda */
+body {
+    margin: 0;
+    padding:0;
+    background-image: url(https://d3ugyf2ht6aenh.cloudfront.net/stores/868/037/products/naima-negro-32-7428f6c6e2738e340116540097735366-640-0.png );
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    color: rgb(51, 255, 0);
+}
+button{
+    background-color: rgba(24, 26, 22, 0.377);
+    width: 200px;
+    margin: 50px;
+    box-shadow: 5px 8px 5px;
+}
+.imagen{
+    margin: 10px;
+    border-radius: 50%;
+    width: 200px;
+}
+</style>
+<body>
+<img class="imagen" src="/20230526_000538_0003.png" alt="imagende zapatos KRI">
+<!-- Botón para abrir la tienda online -->
+<button onclick="abrirTienda()"><h1>Abrir Tienda Online</h1></button>
+<script>
+// Función para enviar una alerta de bienvenida al abrir la tienda online
+function abrirTienda() {
+if (confirm('¡Bienvenido/a: A Tienda de zapatos KRI ! ¿Deseas ingresar?')) {
+window.location.href = 'tienda.html';
+}
+}
+
+</script>
+</body>
+</html>

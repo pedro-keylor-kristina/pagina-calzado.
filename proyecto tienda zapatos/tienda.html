@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="/20230526_000538_0003.png">
+    
+    <title>TIENDA ZAPATOS KRI</title>
+</head>
+<body>
+    
+    
+
+    <!-- Contenedor de la tienda -->
+    <div id="tienda">
+        <div class="producto" id="producto1">
+        <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/868/037/products/naima-negro-32-7428f6c6e2738e340116540097735366-640-0.png" alt="Zapato 1">
+        <p><b> Zapato 1 - $35000</b></p>
+        <button onclick="agregarAlCarrito(1)">Agregar al Carrito</button>
+        </div>
+        <div class="producto" id="producto2">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_994701-MLA54901597734_042023-O.webp" alt="Zapato 2">
+        <p><b>Zapato 2 - $60000</b> </p>
+        <button onclick="agregarAlCarrito(2)">Agregar al Carrito</button>
+        </div>
+        <!-- Agregar más productos aquí -->
+        <div class="producto" id="producto3">
+        <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/171/785/products/ri264poc1-fd843ef8af4f7c95be16761443528375-1024-1024.webp" alt="Zapato 3">
+        <p><b>Zapato 3 - $55000</b></p>
+        <button onclick="agregarAlCarrito(3)">Agregar al Carrito</button>
+        </div>
+        <div class="producto" id="producto4">
+            <img src="https://calzadosbatistella.com.ar/shop/83054-home_default/borcegos-clasicos-de-cuero-negro.jpg" alt="Zapato 4">
+            <p><b>Zapato 4 - $65000</b></p>
+            <button onclick="agregarAlCarrito(4)">Agregar al Carrito</button>
+            </div>
+            <div class="producto" id="producto5">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_911601-MLA69176327862_052023-O.webp" alt="Zapato 4">
+                <p><b>Zapato 5 - $80000</b></p>
+                <button onclick="agregarAlCarrito(5)">Agregar al Carrito</button>
+                </div>
+    </div>
+
+    <!-- Carrito de compras -->
+    <div class="carrito" id="carrito">
+        <h2><b>Carrito de Compras</b></h2>
+        <div id="carrito-contenido">
+        <!-- Contenido del carrito se agregará aquí dinámicamente -->
+        </div>
+        <p><b>Total:</b> <span id="total"><b>$0</b></span></p>
+        <button class="enviar" onclick="enviarWhatsApp()">Enviar por WhatsApp</button>
+    </div>
+
+<script src="/index.js"></script>
+
+
+</body>
+</html>
+    
